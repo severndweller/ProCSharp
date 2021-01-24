@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{68077B71-528B-441B-802F-A90469B40C84}</ProjectGuid>
+    <ProjectGuid>{40DC4BC4-1D6A-4626-9DAF-E816F3232DCA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PassRefsByValue</RootNamespace>
-    <AssemblyName>PassRefsByValue</AssemblyName>
+    <RootNamespace>INterfaceExtensions</RootNamespace>
+    <AssemblyName>INterfaceExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="person.cs" />
+    <Compile Include="AnnoyingExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

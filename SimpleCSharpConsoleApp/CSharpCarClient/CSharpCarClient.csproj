@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{68077B71-528B-441B-802F-A90469B40C84}</ProjectGuid>
+    <ProjectGuid>{C44D4FCC-E091-4030-BF0C-E4B6B0726646}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PassRefsByValue</RootNamespace>
-    <AssemblyName>PassRefsByValue</AssemblyName>
+    <RootNamespace>CSharpCarClient</RootNamespace>
+    <AssemblyName>CSharpCarClient</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarLibrary\CarLibrary.csproj">
+      <Project>{7cff9971-61a4-4aa9-92bd-5c9501940490}</Project>
+      <Name>CarLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
