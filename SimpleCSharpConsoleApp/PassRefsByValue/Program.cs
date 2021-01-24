@@ -10,34 +10,36 @@ namespace PassRefsByValue
     {
         class Person
         {
-            public string personName;
-            public int personAge;
+            private readonly northerner _northerner;
 
             // constructors
             public Person(string name, int age)
             {
-                personName = name;
-                personAge = age;
+                _northerner = new northerner(name, age);
             }
 
-            public Person() { }
-            public void Display()
+            public Person()
             {
-                Console.WriteLine("Name {0}, Age {1}", personName, personAge);
+                _northerner = new northerner();
+            }
+
+            public northerner Northerner
+            {
+                get { return _northerner; }
             }
         }
 
         static void SendAPersonByValue(Person p)
         {
-            p.personAge = 99;
-            p.personName = "Stevey";
+            p.Northerner.personAge = 99;
+            p.Northerner.personName = "Stevey";
             //p = new Person("Nikki", 99);
         }
 
         static void SendAPersonByReference(ref Person p)
         {
-            p.personAge = 66;
-            p.personName = "Mickey";
+            p.Northerner.personAge = 66;
+            p.Northerner.personName = "Mickey";
             //p = new Person("Mel", 75);
         }
 
@@ -46,16 +48,16 @@ namespace PassRefsByValue
             Console.WriteLine("Passing person object by value");
             Person fred = new Person("Fred", 12);
             Console.WriteLine("Before by value call, person is...");
-            fred.Display();
+            fred.Northerner.Display();
 
             SendAPersonByValue(fred);
             Console.WriteLine("After by value call, person is...");
-            fred.Display();
+            fred.Northerner.Display();
 
 
             SendAPersonByReference(ref fred);
             Console.WriteLine("After by reference call, person is...");
-            fred.Display();
+            fred.Northerner.Display();
 
             Console.ReadLine();
 
