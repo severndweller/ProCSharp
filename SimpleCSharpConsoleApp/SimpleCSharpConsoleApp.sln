@@ -111,6 +111,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19WithCSharpAsync", "WithCS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReaderWriterApp", "StringReaderWriterApp\StringReaderWriterApp.csproj", "{7C6C7781-FFB9-4DB5-B730-2C5F619CDA47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProviderFactory", "DataProviderFactory\DataProviderFactory.csproj", "{5530AFFA-C2D7-450F-86F9-192818BBE62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{3484714D-A91E-46EC-9D17-0FD816A45D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotClient2", "AutoLotClient2\AutoLotClient2.csproj", "{9766E7C8-46F0-4E28-B33E-1146A1835C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotConsoleAppCORE", "AutoLotConsoleApp\AutoLotConsoleAppCORE.csproj", "{9E44881E-C9C0-4112-A24A-F6C6DF4A5B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotConsoleAppNET", "AutoLotConsoleAppNET\AutoLotConsoleAppNET.csproj", "{E968499E-3FC6-4F0C-978B-4BAD5A8B6FB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +343,26 @@ Global
 		{7C6C7781-FFB9-4DB5-B730-2C5F619CDA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C6C7781-FFB9-4DB5-B730-2C5F619CDA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C6C7781-FFB9-4DB5-B730-2C5F619CDA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5530AFFA-C2D7-450F-86F9-192818BBE62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5530AFFA-C2D7-450F-86F9-192818BBE62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5530AFFA-C2D7-450F-86F9-192818BBE62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5530AFFA-C2D7-450F-86F9-192818BBE62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3484714D-A91E-46EC-9D17-0FD816A45D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3484714D-A91E-46EC-9D17-0FD816A45D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3484714D-A91E-46EC-9D17-0FD816A45D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3484714D-A91E-46EC-9D17-0FD816A45D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9766E7C8-46F0-4E28-B33E-1146A1835C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9766E7C8-46F0-4E28-B33E-1146A1835C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9766E7C8-46F0-4E28-B33E-1146A1835C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9766E7C8-46F0-4E28-B33E-1146A1835C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E44881E-C9C0-4112-A24A-F6C6DF4A5B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E44881E-C9C0-4112-A24A-F6C6DF4A5B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E44881E-C9C0-4112-A24A-F6C6DF4A5B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E44881E-C9C0-4112-A24A-F6C6DF4A5B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E968499E-3FC6-4F0C-978B-4BAD5A8B6FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E968499E-3FC6-4F0C-978B-4BAD5A8B6FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E968499E-3FC6-4F0C-978B-4BAD5A8B6FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E968499E-3FC6-4F0C-978B-4BAD5A8B6FB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

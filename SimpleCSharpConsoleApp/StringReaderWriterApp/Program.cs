@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using System.Data.Odbc;
+using System.Data.OleDb;
 
 namespace StringReaderWriterApp
 {
@@ -11,6 +15,7 @@ namespace StringReaderWriterApp
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Fun with StringReader / StringWriter ******\n");
 
             // Create a StringWriter and emit data to memory
